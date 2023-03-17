@@ -1,0 +1,12 @@
+{
+    "component": "r2artifact",
+    "repoName": "lib_gifole_registration",
+    "uuaa": "rbvd",
+    "slave_label": "apx",
+    "extra_properties": null,
+    "apxrepoBranch": "master",
+    "componentPaaSId": "lib_gifole_registration",
+    "appPaaSId": "rbvd",
+    "proyectPaaSId": "pe.rbvd.app-id-105529.dsg",
+    "resource_type": "lib"
+}
