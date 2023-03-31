@@ -4,7 +4,7 @@ import com.bbva.elara.configuration.manager.application.ApplicationConfiguration
 import com.bbva.elara.domain.transaction.Context;
 import com.bbva.elara.domain.transaction.ThreadContext;
 import com.bbva.elara.utility.api.connector.APIConnector;
-import com.bbva.rbvd.dto.internalapi.aso.gifole.GifoleInsuranceRequestASO;
+import com.bbva.rbvd.dto.connectionapi.aso.gifole.GifoleInsuranceRequestASO;
 import com.bbva.rbvd.lib.r044.impl.RBVDR044Impl;
 import org.junit.Before;
 import org.junit.Test;
@@ -22,7 +22,7 @@ import org.springframework.web.client.RestClientException;
 
 import javax.annotation.Resource;
 
-import static com.bbva.rbvd.dto.internalapi.util.Errors.ERROR_CONNECTION_GIFOLE;
+import static com.bbva.rbvd.dto.connectionapi.util.Errors.ERROR_CONNECTION_GIFOLE;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
