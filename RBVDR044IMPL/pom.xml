@@ -100,10 +100,6 @@
 							!*;version="${osgi.version.manifest}"
 						</Export-Package>
 						<Import-Package>
-							com.bbva.rbvd.dto.internalapi.aso;version="${osgi.version.manifest}",
-							com.bbva.rbvd.dto.internalapi.aso.common;version="${osgi.version.manifest}",
-							com.bbva.rbvd.dto.internalapi.aso.gifole;version="${osgi.version.manifest}",
-							com.bbva.rbvd.dto.internalapi.util;version="${osgi.version.manifest}",
 							com.bbva.elara.aspect;version="${osgi.version.manifest}",
 							javax.xml.transform;version="${osgi.version.manifest}",
 							org.aopalliance.aop;version="${osgi.version.manifest}",
