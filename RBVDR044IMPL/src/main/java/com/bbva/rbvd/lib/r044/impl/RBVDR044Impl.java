@@ -1,7 +1,7 @@
 package com.bbva.rbvd.lib.r044.impl;
 
-import com.bbva.rbvd.dto.internalapi.aso.gifole.GifoleInsuranceRequestASO;
-import com.bbva.rbvd.dto.internalapi.util.JsonHelper;
+import com.bbva.rbvd.dto.connectionapi.aso.gifole.GifoleInsuranceRequestASO;
+import com.bbva.rbvd.dto.connectionapi.util.JsonHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpEntity;
@@ -12,10 +12,10 @@ import org.springframework.web.client.RestClientException;
 
 import java.nio.charset.StandardCharsets;
 
-import static com.bbva.rbvd.dto.internalapi.util.ApiUriKeys.GIFOLE;
-import static com.bbva.rbvd.dto.internalapi.util.Constants.APPLICATION;
-import static com.bbva.rbvd.dto.internalapi.util.Constants.JSON;
-import static com.bbva.rbvd.dto.internalapi.util.Errors.ERROR_CONNECTION_GIFOLE;
+import static com.bbva.rbvd.dto.connectionapi.util.ApiUriKeys.GIFOLE;
+import static com.bbva.rbvd.dto.connectionapi.util.Constants.APPLICATION;
+import static com.bbva.rbvd.dto.connectionapi.util.Constants.JSON;
+import static com.bbva.rbvd.dto.connectionapi.util.Errors.ERROR_CONNECTION_GIFOLE;
 import static org.springframework.http.HttpMethod.POST;
 
 public class RBVDR044Impl extends RBVDR044Abstract {
